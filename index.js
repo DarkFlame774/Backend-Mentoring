@@ -7,7 +7,7 @@ let gdgInfo = "GDG, or Google Developer Groups, are community-driven organizatio
 let mmduInfo = "MM(DU) Mullana, also known as Maharishi Markandeshwar University, is a prominent educational institution located in Mullana, Haryana, India. Established in 1993, the university is known for its focus on holistic education and comprehensive development. It offers a diverse range of undergraduate, postgraduate, and doctoral programs across various disciplines, including engineering, management, pharmacy, and health sciences. With a commitment to research and innovation, M.M. Mullana emphasizes experiential learning and industry collaboration, equipping students with the skills necessary for a competitive job market. The campus is well-equipped with modern facilities and a vibrant student community, fostering an environment conducive to academic and personal growth."
 
 app.get("/", (req,res) => {
-    res.send("Hello World")
+    res.send("Hello")
 })
 
 app.get("/gdg", (req,res) => {
